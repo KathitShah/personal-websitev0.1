@@ -27,7 +27,7 @@ function myFunction() {
 
 function skillSet() {
     let value = window.scrollY;
-    skillsContent.style.left = 1750 + value * -0.75 + "px";
+    skillsContent.style.left = 2050 + value * -0.75 + "px";
 }
 
 window.addEventListener("scroll", (event) => {
